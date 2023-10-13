@@ -15,7 +15,7 @@ int main()
     //Exercise № 1
     std::cout << "Daniil 231-3213\n" << std::endl;
     //Exercise № 2
-    std::cout << "Maxima and minima of various data types\n" << std::endl;
+    std::cout << "Maximum and minimum of various data types\n" << std::endl;
     std::cout << " max bool: " << bool(0b11111111) << " min bool: " << bool(0b00000000) << " size of bool: " << sizeof(bool) << " byte\n" << std::endl;
     std::cout << " max int: " << int(0b01111111111111111111111111111111) << " min int: " << int(0b10000000000000000000000000000000) << " size of int: " << sizeof(int) << " byte\n" << std::endl;
     std::cout << " max unsigned int: " << ((unsigned int)(0b11111111111111111111111111111111)) << " min unsigned int: " << ((unsigned int)(0b00000000000000000000000000000000)) << " size of unsigned int: " << sizeof(unsigned int) << " byte\n" << std::endl;
@@ -35,7 +35,7 @@ int main()
     std::cout << " A number in double " << double(num) << std::endl;
     std::cout << " A number in char: " << char(num) << std::endl;
     //Exercise № 4
-    std::cout << " Enter the values for the coefficients in the equation a * x = b\n";
+    std::cout << " Enter the values for the coefficients of the equation a * x = b\n";
 
     std::cin >> a >> b;
     x = double(b) / a;
